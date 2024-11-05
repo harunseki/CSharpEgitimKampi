@@ -10,5 +10,6 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
     {
         public int ProductId { get; set; }
         public string ProductName { get; set; }
+        public int MyProperty { get; set; }
     }
 }
