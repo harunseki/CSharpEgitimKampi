@@ -222,6 +222,7 @@
             this.txtGuide.Name = "txtGuide";
             this.txtGuide.Size = new System.Drawing.Size(152, 21);
             this.txtGuide.TabIndex = 33;
+            this.txtGuide.SelectedIndexChanged += new System.EventHandler(this.txtGuide_SelectedIndexChanged);
             // 
             // FrmLocation
             // 

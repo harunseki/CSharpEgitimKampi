@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSharpEgitimKampi301.DataAccessLayer.Abstract
 {
-    internal interface ICustomerDal : IGenericDal<Customer>
+    public interface ICustomerDal : IGenericDal<Customer>
     {
     }
 }

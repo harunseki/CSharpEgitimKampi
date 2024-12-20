@@ -82,5 +82,10 @@ namespace CSharpEgitimKampi301.EFProject
             db.SaveChanges();
             MessageBox.Show("Tur başarıyla getirildi.");
         }
+
+        private void txtGuide_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

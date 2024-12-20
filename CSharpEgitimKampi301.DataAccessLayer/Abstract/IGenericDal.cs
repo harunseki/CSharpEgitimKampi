@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpEgitimKampi301.EntityLayer.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ namespace CSharpEgitimKampi301.DataAccessLayer.Abstract
     {
         void Insert(T entity);
         void Update(T entity);
-        void Delete(int id);
+        void Delete(T entity);
         List<T> GetAll();
         T GetById(int id);
     }

@@ -48,5 +48,10 @@ namespace CSharpEgitimKampi301.EFProject
             var aliGuideId = db.Guide.Where(x => x.GuideName == "Ali" && x.GuideSurname=="Yıldız" ).Select(y => y.GuideId).FirstOrDefault();
             label17.Text = db.Location.Where(x => x.GuideId == aliGuideId).Count().ToString();
         }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
